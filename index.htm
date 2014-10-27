@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru" manifest="cache.manifest">
+<head>
+	<meta charset="windows-1251" />
+	<meta name="robots" content="index, follow" />
+	<meta name="keywords" content="Front-end developer, верстка сайтов, создание сайтов, HTML-верстальщик" />
+	<meta name="description" content="Верстка сайтов." />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+	<title>Верстка сайтов. SerzN1</title>
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="/mypro/css/main.css" rel="stylesheet" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="/mypro/js/prefixfree.min.js"></script>
+	<!--script>
+		curl = {
+			baseUrl: 'mypro',
+			paths: {
+				jquery: '//code.jquery.com/jquery-1.9.1.js',
+				ui: 'js!//code.jquery.com/ui/1.10.4/jquery-ui.js',
+				mobile: '//code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js',
+				mobileCDN: '://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.js'
+			},
+			preloads: ['jquery', 'ui']
+		};
+	</script>
+	<script src="/mypro/js/vendor/curl.js"></script>
+	<script>
+		 curl([
+				'jquery'
+				//,'ui'
+				//,'jquerymobile'
+				//,'domReady!'
+			])
+			// when they are loaded
+			.then(
+				// execute this callback, passing all dependencies as params
+				function ($) {
+					var args = arguments;
+					
+					console.log(arguments);
+					
+					$(function(){
+						var body = document.body;
+						if (body) {
+							
+						}
+						
+						$('body').append('<div>' + arguments + '</div>');
+					});
+					
+				},
+				// execute this callback if there was a problem
+				function (ex) {
+					var msg = 'OH SNAP: ' + ex.message;
+					alert(msg);
+				}
+			);
+	</script-->
+</head>
+<body>
+<!--div class="fone"></div-->
+<div id="loader" class="loader hide"></div>
+<div class="p" id="page">
+	<div class="c" class="width">
+		<header class="header cf">
+			<img class="header_img" src="/mypro/img/me.jpg" alt="SerzN1" title="SerzN1" />
+			<!--canvas id="tv" class="tv" width="490" height="337"></canvas-->
+			<ul id="themes" class="themes">
+				<li class="theme theme_1">Обыная</li>
+				<li class="theme theme_2">Простая</li>
+				<li class="theme theme_3">Стимпанк</li>
+			</ul>
+			<h1 class="logo"><a href="./" class="logo_text">SerzN<span class="logo_text_big">1</span></a></h1>
+			<div class="menu_opener"></div>
+		</header>
+		<nav class="nav">
+			<select class="nav_select" id="nav_select" onchange="window.location=this.value;" name="nav_select">
+				<option value="#projects">Projects</option>
+				<option value="#standards">Standards</option>
+				<option value="#experience">Experience</option>
+				<option value="#portfolio">Actual portfolio</option>
+				<option value="#contacts">Contacts</option>
+			</select>
+			<ul class="nav_list">
+				<li class="nav_item"><a href="#projects">Projects</a></li>
+				<li class="nav_item"><a href="#standards">Standards</a></li>
+				<li class="nav_item"><a href="#experience">Experience</a></li>
+				<li class="nav_item"><a href="#portfolio">Actual portfolio</a></li>
+				<li class="nav_item"><a href="http://blog.serzn1.ru/portfolio">Old portfolio</a></li>
+			</ul>
+		</nav>
+		<div class="main cf">
+			<section class="content">
+			
+				<article class="article">
+					<h2><a id="projects" class="href_local"></a> Projects</h2>
+					<p>Over 50 projects was removed from list. Poor design and outdated requirements must give way to new technologies.</p>
+				</article>
+				
+				<article class="article">
+					<h2><a id="standards" class="href_local"></a> Standards</h2>
+					<p>Standards used in the projects development:</p>
+					<ul class="list">
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>XHTML 1.0 Transitional / HTML 4.01 Transitional if needed</li>
+						<li>Cross browser: IE6+, FireFox, Opera, Chrome, Safari</li>
+						<li>Block layout (DIV)</li>
+						<li>Tables only for table data</li>
+						<li>Valid HTML</li>
+						<li>Semantic markup</li>
+						<li>SEO ready</li>
+						<li>Adaptive Degradation for old browsers</li>
+						<li>Media Queries</li>
+						<li>Microformats</li>
+					</ul>
+				</article>
+				
+				<article class="article">
+					<h2><a id="experience" class="href_local"></a> Experience</h2>
+					<!--p></p-->
+					<ul class="list">
+						<li>250+ projects</li>
+						<li>RBC Contents, ABO.CMS, WordPress, Joomla full sites</li>
+						<li>Mobile sites</li>
+						<li>Responsitive and Adaptive layouts</li>
+						<li>Sprites, Data URI</li>
+						<li>JS Patterns, jQuery plugins</li>
+						<li>JS templates + REST API data</li>
+						<li>CSS transitions and animations</li>
+						<li>LESS, SCSS</li>
+						<li>PHP, RUBY, MySQL basic knowledge</li>
+						<li>Improve page load skills</li>
+						<li>GIT, HG</li>
+						<li>Making VKontakte groups and LJ pages</li>
+						<li>SEO self experience</li>
+						<li>Kanban, Scrum, Agile methodology</li>
+					</ul>
+				</article>
+				
+				<article class="article">
+					<h3><a id="levelup" class="href_local"></a> Level UP</h3>
+					<p>Professional advancement, read books and articles - recommend to improve the skills.</p>
+					<ul class="list">
+						<li>Leadership Wisdom from The Monk Who Sold His Ferrari: The 8 Rituals of Visionary Leaders</li>
+						<li>A Dao of Web Design</li>
+						<li>Using Objects to Organize Your code</li>
+						<li>jQuery Plugins/Authoring</li>
+						<li>JS Garden</li>
+						<li>Helpfull JS Patterns by David Morrow</li>
+						<li>jQuery Anti-Patterns for Performance</li>
+						<li>Javascript. Шаблоны</li>
+						<li>Веб-программирование для мобильных устройств</li>
+						<li>Responsive Web Design by Ethan Marcotte</li>
+						<li>Javascript. The Good Parts</li>
+						<li>Не дизайнерская книга о дизайне</li>
+						<li>HTML5 - недостающее руководство</li>
+						<li>Javascript Web Applications</li>
+					</ul>
+				</article>
+				
+				<article class="article">
+					<h3><a id="future" class="href_local"></a> Future in progress</h3>
+					<p>Current and planned training.</p>
+					<ul class="list">
+						<li>Не заставляйте меня думать</li>
+						<li>Графика на JavaScript</li>
+					</ul>
+				</article>
+				
+				<article class="article">
+					<h3><a id="consulting" class="href_local"></a> Consulting</h3>
+					<ul class="list">
+						<li>Page speed</li>
+						<li>Semantic code</li>
+						<li>HTML Validation</li>
+						<li>Browser support</li>
+						<li>Responsive improvements</li>
+					</ul>
+				</article>
+			</section>
+			<aside class="aside article">
+				<section>
+					<h3>Improve the code</h3>
+					<p>The order in the code. Order in everything. Your project will come off the production line, equipped with the latest technology. With the verified accuracy with it work shadows invisible front. All the mechanisms are sharpened, you just press the <a href="skype:TEHb_No_Named?call">button</a>.</p>
+				</section>
+				<section>
+					<h3>PRO work</h3>
+					<p>Extensive experience. Hundred of projects. Quality assurance in the appropriate time frame.</p>
+				</section>
+				<section class="vcard">
+					<h3><a id="contacts" class="href_local"></a> Contacts</h3>
+					<p>For any questions in the website development you can always come to me:</p>
+					<ul class="list" itemscope itemtype="http://schema.org/Person">
+						<li class="hide" itemprop="name">Babin Sergey</li>
+						<li class="hide"><img src="/mypro/img/me.jpg" itemprop="image" alt="SerzN1" title="SerzN1" /></li>
+						<li class="hide" itemprop="jobTitle">Front-end developer, Web-developer</li>
+						<li class="hide fn org">Верстка сайтов serzn1.ru</li>
+						<li class="hide adr" itemprop="address">Russia, Moscow</li>
+						<li class="http">http: <a class="url" href="http://serzn1.ru" itemprop="url">serzn1.ru</a></li>
+						<li class="skype">skype: <a href="skype:tehb_no_named?call">tehb_no_named</a></li>
+						<li class="mail">e-mail: <a class="email" href="mailto:bob_s@list.ru" itemprop="email">bob_s@list.ru</a></li>
+						<li class="tel">phone: <span class="value" itemprop="telephone">+7 (916) 23-22-417</span></li>
+					</ul>
+				</section>
+			</aside>
+		</div>
+		<footer class="footer">&copy; Front-end web development SerzN1.</footer>
+	</div>
+</div>
+<div class="hide">	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+	
+		
+		$.alert = function(data){
+			alert(data);
+		};
+
+		(function($, g, undefined){
+		
+			
+			g.helpers = g.helpers || {
+				addClass: function(el, cl){
+					el.className += ' ' + cl;
+					return el;
+				}
+			};
+			
+			
+			var SerzApp = function(o){
+				this.opts = o;
+			};
+			SerzApp.prototype = {
+				init: function(o){
+					console.log('!init app');
+					
+					this.opts = o;
+					this.loader = $('#' + o.loaderId);
+					this.portfolioId = o.portfolioId;
+					this.getTreeData();
+				},
+				getTreeData: function(){
+					var _this = this;
+					this.showLoader();
+					$.ajax( this.opts.portfolioUrl )
+						.done( function(data) {_this.insertData.apply(_this, arguments); } )
+						.fail( function(data) {_this.insertFail.apply(_this, arguments); } )
+						.always( function() { _this.hideLoader.apply(_this, arguments); } );
+				},
+				insertData: function(data){
+					console.log('!Loaded tree');
+					document.getElementById("page").appendChild(this.buildTree(data));
+					//document.getElementsByTagName('body')[0].appendChild(this.buildTree(data));
+				},
+				removeTree: function(){
+				},
+				buildTree: function(data, textstatus, jqXHR){
+					var div = document.createElement("div");
+					div.id = this.portfolioId;
+					//div.className = "portfolio";
+					div.setAttribute("class", this.portfolioId);
+					div.innerHTML = "<h2 class='portfolio_title'>Actual projects list</h2>" + data;
+
+					div.addEventListener('click', this.openPortfolio, true);
+					
+					return div;
+				},
+				insertFail: function(){
+				},
+				openPortfolio: function(e){
+					
+				},
+				showLoader: function(){
+					this.loader.removeClass('hide');
+				},
+				hideLoader: function(){
+					this.loader.addClass('hide');
+				}
+			};
+			
+			
+			var opts = {
+				loaderId: "loader",
+				portfolioId: "portfolio",
+				portfolioUrl : "/_!__tree.php"
+			};
+			var serzApp = new SerzApp();
+			serzApp.init(opts);
+				
+			
+			
+			
+			
+			
+			
+			// projects module SerzN1
+			/*
+			Serz.ProjectsList = (function(){
+				
+				var Constructor = function(id){
+					this.id = id;
+				};
+				Constructor.prototype = {
+					init: function(){
+					
+						console.log('loader');
+					},
+					load: function(){
+					},
+					showLoader: function(){
+					}
+				};
+				
+				return Constructor;
+			})();
+			
+			var projects = new Serz.ProjectsList('panel');
+			*/
+			
+			
+			
+			/*
+			RUN.draw = (function(opts){
+				var tv = document.getElementById("tv"),
+					canvas2d,
+					mySrc = "/mypro/img/me.jpg",
+					init,
+					destroy;
+
+				if ( !!document.createElement('canvas').getContext ) {
+					canvas2d = tv.getContext('2d');
+
+					function loadImg(path){
+						var img = new Image();
+							img.onload = function() {
+								drawTv(img);
+							};
+							img.src = path;
+					}
+					
+					function drawTv(img){
+						canvas2d.globalAlpha = .75;
+						canvas2d.drawImage(img, 0, 0);
+					}
+					
+					init = function() {
+						loadImg(mySrc);
+					}
+					
+					destroy = function() {
+						delete RUN.draw;
+					}
+				} else {
+					init = function() {
+						var img = new Image();
+						img.src = mySrc;
+						tv.appendChild(img);
+					}
+				}
+				
+				return {
+					init: init,
+					destroy: destroy
+				}
+			})();
+			*/
+		})(jQuery, this);
+	</script>
+</div>
+</body>
+</html>

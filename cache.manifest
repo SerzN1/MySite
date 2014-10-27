@@ -1,0 +1,23 @@
+CACHE MANIFEST
+# Версия 2
+
+CACHE:
+//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+/mypro/js/prefixfree.min.js
+/mypro/js/main.js
+/mypro/img/me.jpg
+/mypro/css/main.css
+
+/mypro/img/html5/html5_offline_storage.svg
+/mypro/img/html5/html5_multimedia.svg
+/mypro/img/html5/html5_3d_effects.svg
+/mypro/img/html5/html5_device_access.svg
+/mypro/img/html5/html5_perfintegration.svg
+/mypro/img/html5/html5_semantics.svg
+/mypro/img/html5/html5_css3_styling.svg
+
+FALLBACK:
+/   /mypro/i_offline.html
+
+NETWORK:
+*

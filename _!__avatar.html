@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="windows-1251" />
+	<meta name="robots" content="index, follow" />
+	<meta name="keywords" content="Front-end developer, верстка сайтов, создание сайтов, HTML-верстальщик" />
+	<meta name="description" content="Верстка сайтов." />
+	<title>Верстка сайтов. SerzN1</title>
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+	<style> body { -webkit-font-smoothing: antialiased; }</style>
+	<script src="prefixfree.min.js"></script>
+</head>
+<body>
+<div id="p">
+
+	<marquee class="marquee" behavior="scroll" scrollamount="10" direction="left">Свойство content позволяет вставлять генерируемое содержание в текст веб-страницы, которое первоначально в тексте отсутствует. Применяется совместно с псевдоэлементами :after и :before, они соответственно указывают отображать новое содержимое после или до элемента, к которому добавляются.</marquee>
+	
+	<style>
+	
+		.marquee { width:300px; padding:10px; font-size:16px; white-space:nowrap; color:#494f9c;}
+		
+		html, body { height:100%; background:#000; margin:0; padding:0;}
+		body { min-height:100%;}
+		
+		.face { width:400px; height:400px; border:1px solid red; margin:0 auto; position:relative; overflow:hidden;}
+		.face_overlay { width:100%; height:100%; top:0; left:0; background:url(1.png) no-repeat 50% 0; opacity:.5;}
+		.face > div { position:absolute;}
+		
+		.face_bg { width:100%; top:0; left:0; height:211px;}
+		.hat1 { transform:rotate(-1deg); background:#000; top:17px; left:0; height:20px; width:330px;}
+		.hat1:before { content:""; width:0; height:0; position:absolute; top:0; left:100%; border-top:20px solid #000; border-right:20px solid transparent;}
+		
+		.hat2 { transform:rotate(5deg); background:#000; top:10px; left:0; height:20px; width:163px;}
+		.hat3 {top:-1762px; left: -1007px; border-radius: 0 0 100% 100%; background: #000; width: 2400px; height: 1772px;}
+		
+		
+		.gr1 {
+			background: #9f9f9f;
+			background: linear-gradient(110deg, #9f9f9f 0%,#c3c6c5 17%,#ffffff 36%,#ffffff 61%,#c6caec 76%,#1f2151 100%);
+		}
+		.gr2 {
+			background: #9f9f9f;
+			background: linear-gradient(135deg, #9f9f9f 0%,#c3c6c5 17%,#ffffff 36%,#ffffff 61%,#c6caec 76%,#1f2151 100%);
+		}
+		.gr3 {
+			background: #9f9f9f;
+			background: linear-gradient(135deg, #9f9f9f 0%,#c3c6c5 17%,#ffffff 36%,#ffffff 61%,#c6caec 76%,#1f2151 100%);
+		}
+		
+		
+		
+		.cheek1 { transform:skew(10deg, 9deg); background:#000; top:56px; left:345px; height:65px; width:60px;}
+		.cheek2 { transform:skew(-22deg, 0); background:#000; top:116px; left:337px; height:65px; width:90px;}
+		.cheek3 { transform:skew(0deg, 0); background:#000; top:181px; left:324px; height:65px; width:90px;}
+		
+		
+		
+		.nose1 { top:168px; left:229px; width:0; height:0;}
+		.nose1:after { content:""; border-bottom:19px solid #acaab7; border-left:13px solid transparent; position:absolute; top:0; left:-13px;}
+		.nose1:before { content:""; border-bottom:19px solid #acaab7; border-right:8px solid transparent; position:absolute; top:0; left:0;}
+		
+
+		.eye1 { top:79px; left:78px; width:52px; height:23px; border-radius:0 0 100% 50%; background:#b8c48d;}
+		.eye2 { top:79px; left:92px; width:28px; height:14px; border-radius:0 0 100% 50%; background:#000;}
+		.eye3 { transform:rotate(-54deg); top:91px; left:33px; width:70px; height:23px; background:#000;}
+		
+	</style>
+
+
+	
+	
+	
+	<div class="face">
+		
+		
+		<div class="face_bg gr1"></div>
+		<div class="hat1"></div>
+		<div class="hat2"></div>
+		<div class="hat3"></div>
+		
+		<div class="cheek1"></div>
+		<div class="cheek2"></div>
+		<div class="cheek3"></div>
+
+		<div class="nose1"></div>
+		
+		
+		<div class="eye1"></div>
+		<div class="eye2"></div>
+		<div class="eye3"></div>
+		
+		
+		<div class="face2"></div>
+		<div class="face3"></div>
+		
+		<div class="face_overlay"></div>
+	</div>
+</div>
+</body>
+</html>
